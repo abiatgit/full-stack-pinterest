@@ -1,18 +1,18 @@
-import "./app.css";
-import LeftBar from "./components/leftBar/leftBar";
-import TopBar from "./components/topBar/TopBar";
-import Gallery from "./components/gallery/Gallery";
+// import "./app.css";
+// import LeftBar from "./components/leftBar/leftBar";
+// import TopBar from "./components/topBar/TopBar";
+// import Gallery from "./components/gallery/Gallery";
 
-const App = () => {
-  return (
-    <div className="app">
-      <LeftBar />
-      <div className="content">
-        <TopBar />
-        <Gallery />
-      </div>
-    </div>
-  );
-};
+// const App = () => {
+//   return (
+//     <div className="app">
+//       <LeftBar />
+//       <div className="content">
+//         <TopBar />
+//         <Gallery />
+//       </div>
+//     </div>
+//   );
+// };
 
-export default App;
+// export default App;

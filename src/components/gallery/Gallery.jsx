@@ -1,6 +1,6 @@
 import "./gallery.css";
 import items from "../../constant/pinimg";
-import GalleryItem from "../galleryItem/GalleryItem";
+import GalleryItem from "../galleryItem/GalleryItem.jsx";
 const Gallery = () => {
   return (
     <div className="gallery">

@@ -1,7 +1,7 @@
 
-import './homepage.css'
 import Galary from "../../components/gallery/Gallery.jsx"
-const Homepage = () => {
+
+const SearchPage = () => {
   return (
     <div>
    <Galary/>
@@ -9,4 +9,4 @@ const Homepage = () => {
   )
 }
 
-export default Homepage
+export default SearchPage

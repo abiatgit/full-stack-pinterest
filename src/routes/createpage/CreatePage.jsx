@@ -2,7 +2,7 @@ import './createpage.css'
 const CreatePage = () => {
   return (
     <div>
-      <div className="createPage"></div>
+      <div className="createPage">CreatePage</div>
     </div>
   )
 }
