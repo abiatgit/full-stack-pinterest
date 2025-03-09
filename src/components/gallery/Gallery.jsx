@@ -1,16 +1,14 @@
-import './gallery.css'
-import { items } from '../../constant/pinimg'
-console.log(items)
+import "./gallery.css";
+import items from "../../constant/pinimg";
+import GalleryItem from "../galleryItem/GalleryItem";
 const Gallery = () => {
   return (
-    <div className='gallery'>
-    {items.map((item) => (
-        <div className='galleryItem' key={item.id}>
-          <img src={item.media} alt={item.id} />
-        </div>
-      ))}
+    <div className="gallery">
+      {items.map((item) => {
+     return   <GalleryItem items={item} key={item.id} />;
+      })}
     </div>
-  )
-}
+  );
+};
 
-export default Gallery
+export default Gallery;
