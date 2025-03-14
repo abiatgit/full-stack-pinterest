@@ -1,0 +1,32 @@
+.postIntractions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.intractionIcons {
+    display: flex;
+    gap: 16px;
+}
+
+.intractionIcons img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+button {
+    padding: 12px 16px;
+    border-radius: 24px;
+    border: none;
+    background-color: #e60023;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #ad081b;
+} 

@@ -1,15 +1,14 @@
 import './userButton.css'
 import { useState } from 'react'
+import Image from '../image/image'
 const UserButton = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen)
-  }
+
   const currentUser = true
   return currentUser ? (
     <div className='userButton'>
-        <img src="/general/noAvatar.png" alt='user' className='userAvatar' />
-        <img src="/general/arrow.svg" onClick={toggleMenu} alt='arrowDown' className='arrowDown' />
+        <Image path="/general/noAvatar.png" alt='user' className='userAvatar' />
+        <Image path="/general/arrow.svg" onClick={() => setIsMenuOpen(!isMenuOpen)} alt='arrowDown' className='arrowDown' />
         {isMenuOpen && <div className='userOptions'>
             <button className='userOption' >Profile</button>
             <button className='userOption'>Settings</button>
